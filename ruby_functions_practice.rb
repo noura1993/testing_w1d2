@@ -23,3 +23,11 @@ end
 def divide(number_1, number_2)
     return number_1/number_2
 end
+
+def length_of_string(str)
+    return str.length
+end
+
+def join_string(str_1, str_2)
+    return str_1 + str_2
+end
