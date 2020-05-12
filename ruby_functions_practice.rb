@@ -55,3 +55,16 @@ def number_to_short_month_name(month_number)
       return  "Oct"
     end
 end
+
+def volume_of_cube (length_of_side)
+    return length_of_side**3
+end
+
+def volume_of_sphere (radius_of_sphere)
+    return (4/3)*3.14*radius_of_sphere**3
+end
+
+def fahrenheit_to_celsius (fahrenheit)
+    return (fahrenheit - 32) * (5/9)
+end
+
